@@ -1,3 +1,12 @@
 {
-  "extends": "astro/tsconfigs/strict"
+  "extends": "astro/tsconfigs/strict",
+  //*Podemos agregar configuraciones adicionales aquí como poder usar el @ para importar archivos
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@resume": ["./resume.json"],
+
+      "@/*": ["src/*"]
+    }
+  }
 }

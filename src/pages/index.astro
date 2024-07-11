@@ -1,14 +1,32 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import Card from '../components/Card.astro';
+import Education from '@/components/sections/Education.astro';
+import Experience from '@/components/sections/Experience.astro';
+import Layout from '@/layouts/Layout.astro';
+import Hero from '@/components/sections/Hero.astro';
+import Projects from '@/components/sections/Projects.astro';
+import Skills from '@/components/sections/Skills.astro';
+import About from '@/components/sections/About.astro';
+import KeyoboardManager from '@/components/KeyboardManager.astro';
 ---
 
 <Layout title="PortFolio Mac Rountree">
 	<main>
-		<h1>Hola Mundo</h1>
+		<Hero />
+		<About />
+		<Experience />
+		<Education />
+		<Projects />
+		<Skills />
 	
 	</main>
+	<KeyoboardManager />
 </Layout>
 
 <style>
+
+	main{
+		padding: 4rem;
+		margin: auto
+		wodth: 100%;
+	}
 </style>
