@@ -34,7 +34,16 @@
       "url": "https://company.com",
       "startDate": "2023-06-05",
       "endDate": null,
-      "summary": "Desarrollé el rediseño de la aplicación web de la empresa, tales como la implementación de una nueva barra de navegación, creación de nuevos catálogos y optimización de procesos en trazabilidad y etiquetado de productos. Además, realicé pruebas de extremo a extremo para garantizar la calidad del software.",
+      "summary": "Desarrollé el rediseño de la aplicación web de la empresa, implementé una nueva barra de navegación, añadi nuevos catálogos y optimización de procesos en trazabilidad y etiquetado de productos. Además, realicé pruebas de extremo a extremo para garantizar la calidad del software.",
+      "highlights": ["Started the company"]
+    },
+    {
+      "name": "Centro de Servicios de Tecnología de la Información (CSTI)",
+      "position": "Soporte Técnico / Web Developer",
+      "url": "https://company.com",
+      "startDate": "2022-05-15",
+      "endDate": "2023-12-15",
+      "summary": "Brindé soporte técnico tanto de hardware como software a los usuarios y aulas del departamento de Ingenieria Industrial de la Universidad de Sonora. Desarrollé un generador de pdf para agilizar la entrega de documentos importantes para la secretaría del departamento.",
       "highlights": ["Started the company"]
     }
   ],
@@ -87,6 +96,15 @@
     }
   ],
   "skills": [
+    {"name": "VueJS"},
+    {"name": "React.JS"},
+    {
+      "name": "JavaScript"
+    },
+    {
+      "name": "TypeScript"
+    },
+    {"name": "Quasar"},
     {
       "name": "HTML5",
       "level": "Master",
@@ -100,18 +118,10 @@
     {
       "name": "SaSS"
     },
-    {
-      "name": "JavaScript"
-    },
-    {
-      "name": "TypeScript"
-    },
-    {"name": "VueJS"},
-    {"name": "Quasar"},
 
     {"name": "PostgreSQL"},
 
-    {"name": "Playwright"}
+    {"name": "Playwright E2E"}
   ],
   "languages": [
     {
@@ -138,7 +148,17 @@
       "endDate": "2021-01-01",
       "description": "Description...",
       "highlights": ["Won award at AIHacks 2016"],
-      "url": "https://project.com/"
+      "url": "https://project.com/",
+      "isActive": true
+    },
+    {
+      "name": "Project",
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-01",
+      "description": "Description...",
+      "highlights": ["Won award at AIHacks 2016"],
+      "url": "https://project.com/",
+      "isActive": true
     }
   ]
 }

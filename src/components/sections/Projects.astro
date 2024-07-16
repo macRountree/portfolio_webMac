@@ -1,4 +1,79 @@
 ---
 import  Section  from '../Section.astro'
+import {projects} from '@/resume.json'
+
 ---
-<Section title="Projects"></Section>
+<Section title="Projects">
+    <ul>
+        {projects.map(({url,description,name,highlights}) => {
+
+
+
+            return (
+            <li>
+                <article>
+                    <header>
+                        <a href={url} title={`Ver el proyecto${name}`}>
+                        </a>
+                    </header>
+                    <p>{description}</p>
+                    <footer>
+                            {highlights.map((highlight) => (
+                                <span>{highlight}</span>
+                            ))}
+
+                    </footer>
+
+                </article>
+           
+            </li>
+            )
+        } 
+            
+        )}
+    </ul>
+</Section>
+<style>
+    ul{
+        display: grid;
+        grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+        gap: 1rem
+    }
+    article{
+        display: flex;
+        flex-direction: column;
+        border-radius: 8px;
+        border: 1px solid #f2f2f2;
+        gap: 1rem;
+        padding: 1.5rem;
+        height: 100% ;
+    }
+    article header{
+        flex: 1;
+    }
+    article h3{margin-bottom: .8rem;}
+    article a:hover{
+        text-decoration: underline;
+    }
+    article p{
+        font-size: .9rem;
+        line-height: 1.2;
+    }
+    footer{
+        display: flex;
+        gap: 1rem;
+        flex-wrap: wrap;
+        font-size: .7rem;
+        gap: 1rem;
+    }
+    footer span{
+        background-color: #eee;
+        color: #333333b4;
+        padding: 0.5rem;
+        border-radius: 4px;
+        font-size: .6rem;
+        font-weight: 500;
+        padding: 0.5rem .6rem;
+    }
+        
+</style>
