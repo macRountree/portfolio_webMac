@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Carlos Macoy Rountree Robles",
-    "label": "Ingeniero de Software / Desarrollador Web",
+    "label": "Software Engineer",
     "image": "https://avatars.githubusercontent.com/u/54153396?s=400&u=fbb89c490e7829ae3c3e71b5d5be0d4c0ca43403&v=4",
     "email": "macoy1492@hotmail.com",
     "phone": "526622277834",
     "url": "https://johndoe.com",
-    "summary": "Ingeniero en Sistemas de Información desde Marzo del 2024 enfocado en el Desarrollo Web Frontend ",
+    "summary": "Bachelor's degree in Software Engineer since March 2024.This career has many branches, but the one that most calls to me is web development. The deployments, the way users interact with the app, and how the complexity scales as features are added. all of this motivates me to focus on this field of knowledge. ",
     "location": {
       "address": "2712 Broadway St",
       "postalCode": "CA 94115",
@@ -34,7 +34,7 @@
       "url": "https://company.com",
       "startDate": "2023-06-05",
       "endDate": null,
-      "summary": "Desarrollé el rediseño de la aplicación web de la empresa, implementé una nueva barra de navegación, añadi nuevos catálogos y optimización de procesos en trazabilidad y etiquetado de productos. Además, realicé pruebas de extremo a extremo para garantizar la calidad del software.",
+      "summary": "I developed the design of the company's web app, implemented a new navbar,toast notification added new catalogs, and optimized processes for traceability and product labeling. Additionally, I conducted end-to-end testing to ensure software quality.",
       "highlights": ["Started the company"]
     },
     {
@@ -43,7 +43,7 @@
       "url": "https://company.com",
       "startDate": "2022-05-15",
       "endDate": "2023-12-15",
-      "summary": "Brindé soporte técnico tanto de hardware como software a los usuarios y aulas del departamento de Ingenieria Industrial de la Universidad de Sonora. Desarrollé un generador de pdf para agilizar la entrega de documentos importantes para la secretaría del departamento.",
+      "summary": "Provided technical support for both hardware and software to users and classrooms in the Industrial Engineer Department at the Universidad de Sonora. I also developed a PDF generator to streamline the delivery of important documents for the department's office.",
       "highlights": ["Started the company"]
     }
   ],
@@ -99,7 +99,7 @@
     {"name": "VueJS"},
     {"name": "React.JS"},
     {
-      "name": "JavaScript"
+      "name": "JavaScript ES6"
     },
     {
       "name": "TypeScript"
@@ -112,14 +112,16 @@
     },
     {
       "name": "CCS3",
-      "level": "Intermediate",
-      "keywords": ["Selenium", "Jest"]
+      "level": "Intermediate"
     },
     {
       "name": "SaSS"
     },
 
     {"name": "PostgreSQL"},
+    {"name": "MongoDB"},
+    {"name": "Postman"},
+    {"name": "Github"},
 
     {"name": "Playwright E2E"}
   ],
@@ -143,21 +145,37 @@
   ],
   "projects": [
     {
-      "name": "Project",
+      "name": "Dental-App",
       "startDate": "2019-01-01",
       "endDate": "2021-01-01",
-      "description": "Description...",
-      "highlights": ["Won award at AIHacks 2016"],
-      "url": "https://project.com/",
+      "description": "Dental-App is a web application CRUD that allows users to schedule appointments with dentists, Edit, Delete, and Update them. It also allows users/Admin to register and log in to the application. ",
+      "highlights": [
+        "VueJS",
+        "MongoDB",
+        "ExpressJS",
+        "NodeJS",
+        "Pinia",
+        "Vue-Router"
+      ],
+      "url": "https://github.com/macRountree/dental_salon",
       "isActive": true
     },
     {
-      "name": "Project",
+      "name": "Udemy Landing Page",
       "startDate": "2019-01-01",
       "endDate": "2021-01-01",
-      "description": "Description...",
-      "highlights": ["Won award at AIHacks 2016"],
-      "url": "https://project.com/",
+      "description": "A SAP Udemy landing page, is a clone of the Udemy website, responsive design,mobile-first,Flexbox,Grid,and BEM methodology",
+      "highlights": ["HTML", "CSS", "SASS", "Bootstrap"],
+      "url": "https://udemylikemac.netlify.app/",
+      "isActive": true
+    },
+    {
+      "name": "Portfolio Mac",
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-01",
+      "description": "Professional portfolio and CV with the ability to download it as a PDF and print it. It can be modified only manipulating the JSON file of the project.",
+      "highlights": ["HTML", "CSS", "SASS", "Bootstrap"],
+      "url": "https://portfoliomacrountree.netlify.app/",
       "isActive": true
     }
   ]
