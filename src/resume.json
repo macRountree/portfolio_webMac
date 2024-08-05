@@ -97,6 +97,9 @@
   ],
   "skills": [
     {"name": "VueJS"},
+    {"name": "English (Intermediate)"},
+    {"name": "Spanish (Native)"},
+    {"name": "Astro"},
     {"name": "React.JS"},
     {
       "name": "JavaScript ES6"
@@ -174,7 +177,7 @@
       "startDate": "2019-01-01",
       "endDate": "2021-01-01",
       "description": "Professional portfolio and CV with the ability to download it as a PDF and print it. It can be modified only manipulating the JSON file of the project.",
-      "highlights": ["HTML", "CSS", "SASS", "Bootstrap"],
+      "highlights": ["Astro", "CSS", "SASS"],
       "url": "https://portfoliomacrountree.netlify.app/",
       "isActive": true
     }
