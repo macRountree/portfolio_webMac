@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Carlos Macoy Rountree Robles",
-    "label": "Software Engineering / Web Developer",
+    "label": "Software Engineer / Web Developer",
     "image": "https://avatars.githubusercontent.com/u/54153396?s=400&u=fbb89c490e7829ae3c3e71b5d5be0d4c0ca43403&v=4",
     "email": "macoy1492@hotmail.com",
     "phone": "526622277834",
@@ -39,16 +39,16 @@
       "url": "https://company.com",
       "startDate": "2023-06-05",
       "endDate": null,
-      "summary": "I developed the design of the company's web app, implemented a new navbar,toast notification added new catalogs, and optimized processes for traceability and product labeling. Additionally, I conducted end-to-end testing to ensure software quality.",
+      "summary": "I developed the redesign of the company's web app: A post-harvest product manager, enhancing the UI, I implemented a new navbar integrating all the important sections of the app and rendering it responsive,Add new toast notification design to improving UX, added new catalogs, and optimized processes for traceability and product labeling implementing a new pdf library, improving label's printing times. Additionally, i lead the end-to-end testing process to ensure app quality.",
       "highlights": ["Started the company"]
     },
     {
       "name": "Centro de Servicios de Tecnología de la Información (CSTI)",
-      "position": "Soporte Técnico / Web Developer",
+      "position": "Tech Support / Web Developer",
       "url": "https://company.com",
       "startDate": "2022-05-15",
       "endDate": "2023-12-15",
-      "summary": "Provided technical support for both hardware and software to users and classrooms in the Industrial Engineering Department at the Universidad de Sonora. I also developed a PDF generator to streamline the delivery of important documents for the department's office.",
+      "summary": "Provided technical support for both hardware and software to users and classrooms in the Industrial Engineering Department at the Universidad de Sonora. I also I developed the frontend of an app to generate pdf for the Department's secretary, saving time to printing activities.",
       "highlights": ["Started the company"]
     }
   ],
