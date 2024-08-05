@@ -6,14 +6,16 @@ import Phone from '@/icons/Phone.astro'
 import WorldMap from '@/icons/WorldMap.astro'
 import LinkedIn from '@/icons/LinkedIn.astro'
 import GitHub from '@/icons/GitHub.astro'
-const { name,label,image,location,profiles,phone,email } = basics
+import World from '@/icons/World.astro'
+const { name,label,image,location,profiles,phone,email,url } = basics
 const {city,region,countryCode} = location
 
 const SOCIAL_ICONS: Record <string,any> ={
      GitHub,
      LinkedIn,
+        World
 }
-const linkedInInfo = profiles.find(({network}) => network === 'LinkedIn')
+const linkedInInfo = profiles.find(({network}) => network === 'LinkedIn' && "GitHub")
 const linkedInUrl = linkedInInfo?.url
 
 ---
@@ -41,6 +43,10 @@ const linkedInUrl = linkedInInfo?.url
                         <li>
 
                             {linkedInUrl} 
+                        </li>
+                        <li>
+
+                            {url} 
                         </li>
                 </ul>
 

@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Carlos Macoy Rountree Robles",
-    "label": "Software Engineer",
+    "label": "Software Engineering / Web Developer",
     "image": "https://avatars.githubusercontent.com/u/54153396?s=400&u=fbb89c490e7829ae3c3e71b5d5be0d4c0ca43403&v=4",
     "email": "macoy1492@hotmail.com",
     "phone": "526622277834",
-    "url": "https://johndoe.com",
-    "summary": "Bachelor's degree in Software Engineer since March 2024.This career has many branches, but the one that most calls to me is web development. The deployments, the way users interact with the app, and how the complexity scales as features are added. All of this motivates me to focus on this field of knowledge. ",
+    "url": "https://portfoliomacrountree.netlify.app/",
+    "summary": "Bachelor's degree in Software Engineering since March 2024.This career has many branches, but the one that most calls to me is web development. The deployments, the way users interact with the app, and how the complexity scales as features are added. All of this motivates me to focus on this field of knowledge. ",
     "location": {
       "address": "2712 Broadway St",
       "postalCode": "CA 94115",
@@ -23,6 +23,11 @@
       {
         "network": "LinkedIn",
         "url": "https://www.linkedin.com/in/macrountree/",
+        "username": "Carlos Macoy Rountree Robles"
+      },
+      {
+        "network": "World",
+        "url": "https://portfoliomacrountree.netlify.app/",
         "username": "Carlos Macoy Rountree Robles"
       }
     ]
@@ -43,7 +48,7 @@
       "url": "https://company.com",
       "startDate": "2022-05-15",
       "endDate": "2023-12-15",
-      "summary": "Provided technical support for both hardware and software to users and classrooms in the Industrial Engineer Department at the Universidad de Sonora. I also developed a PDF generator to streamline the delivery of important documents for the department's office.",
+      "summary": "Provided technical support for both hardware and software to users and classrooms in the Industrial Engineering Department at the Universidad de Sonora. I also developed a PDF generator to streamline the delivery of important documents for the department's office.",
       "highlights": ["Started the company"]
     }
   ],
