@@ -6,7 +6,7 @@
     "email": "macoy1492@hotmail.com",
     "phone": "526622277834",
     "url": "https://johndoe.com",
-    "summary": "Bachelor's degree in Software Engineer since March 2024.This career has many branches, but the one that most calls to me is web development. The deployments, the way users interact with the app, and how the complexity scales as features are added. all of this motivates me to focus on this field of knowledge. ",
+    "summary": "Bachelor's degree in Software Engineer since March 2024.This career has many branches, but the one that most calls to me is web development. The deployments, the way users interact with the app, and how the complexity scales as features are added. All of this motivates me to focus on this field of knowledge. ",
     "location": {
       "address": "2712 Broadway St",
       "postalCode": "CA 94115",
@@ -96,9 +96,13 @@
     }
   ],
   "skills": [
-    {"name": "VueJS"},
     {"name": "English (Intermediate)"},
     {"name": "Spanish (Native)"},
+    {
+      "name": "Research (Google , StackOverflow, Issues of Github's repository, ChatGPT)"
+    },
+    {"name": "Teamwork"},
+    {"name": "VueJS"},
     {"name": "Astro"},
     {"name": "React.JS"},
     {
@@ -123,6 +127,7 @@
 
     {"name": "PostgreSQL"},
     {"name": "MongoDB"},
+    {"name": "Express"},
     {"name": "Postman"},
     {"name": "Github"},
 
