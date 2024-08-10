@@ -188,7 +188,7 @@
       "endDate": "2021-01-01",
       "description": "Professional portfolio and CV with the ability to download it as a PDF and print it. It can be modified only manipulating the JSON file of the project.",
       "highlights": ["Astro", "CSS", "SASS"],
-      "url": "https://portfoliomacrountree.netlify.app/",
+      "url": "https://portfolio-web-mac.vercel.app/",
       "isActive": true
     }
   ]
