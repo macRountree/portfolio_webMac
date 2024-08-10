@@ -6,7 +6,7 @@
     "email": "macoy1492@hotmail.com",
     "phone": "526622277834",
     "url": "https://portfoliomacrountree.netlify.app/",
-    "summary": "Bachelor's degree in Software Engineering since March 2024.This career has many branches, but the one that most calls to me is web development. The deployments, the way users interact with the app, and how the complexity scales as features are added. All of this motivates me to focus on this field of knowledge. ",
+    "summary": "I'm a FullStack Developer from Hermosillo, México with Bachelor's degree in Software Engineering from the Universidad de Sonora and have experience with MEVN and MERN stack projects, as well as QuasarJs, NestJS, PostgreSQL, TailwindCSS, Sass and Playwright (Testing E2E)  . I enjoy exploring different technologies and learning how to face and resolve challenges. My experience in carrying out web projects has allowed me to tackle various challenges, improve performance, and enhance both my individual and team work. ",
     "location": {
       "address": "2712 Broadway St",
       "postalCode": "CA 94115",
@@ -104,7 +104,7 @@
     {"name": "English (Intermediate)"},
     {"name": "Spanish (Native)"},
     {
-      "name": "Research (Google , StackOverflow, Issues of Github's repository, ChatGPT)"
+      "name": "Research (Google)"
     },
     {"name": "Teamwork"},
     {"name": "VueJS"},
