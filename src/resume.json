@@ -190,6 +190,15 @@
       "highlights": ["Astro", "CSS", "SASS"],
       "url": "https://portfolio-web-mac.vercel.app/",
       "isActive": true
+    },
+    {
+      "name": "Patients-Management",
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-01",
+      "description": "Patients-Management is a web app CRUD that allows users to register patients, Edit, Delete, and Update them. Zustand is used to manage the state and LocalStorage to persist the data.",
+      "highlights": ["ReactJS", "TailwindCSS", "Zustand", "React-Form-Hook"],
+      "url": "https://patiens-manager-tsx-zustand.vercel.app/",
+      "isActive": true
     }
   ]
 }
