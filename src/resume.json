@@ -174,6 +174,25 @@
       "isActive": true
     },
     {
+      "name": "Drinks Seeker",
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-01",
+      "description": "Drinks-Seeker is a web application that allows users to search for drinks by name, category or ingredient. It uses the CocktailDB API to get the data and display the recipes. It was implemented with state management, routes, UI components and schema validator.",
+      "highlights": [
+        "ReactJS",
+        "TypeScript",
+        "Axios",
+        "TailwindCSS",
+        "React-Router-DOM",
+        "Zustand",
+        "Zod",
+        "HeadlessUI",
+        "VITE"
+      ],
+      "url": "https://patiens-manager-tsx-zustand.vercel.app/",
+      "isActive": true
+    },
+    {
       "name": "Udemy Landing Page",
       "startDate": "2019-01-01",
       "endDate": "2021-01-01",
