@@ -36,7 +36,8 @@
     {
       "name": "Sistemas ALM",
       "position": "Frontend Developer / Tester End to End",
-      "url": "https://company.com",
+      "projectUrl": "https://www.youtube.com/watch?v=2_M3AoW_e9U",
+      "projectName": "Agroeasy",
       "startDate": "2023-06-05",
       "endDate": null,
       "summary": "I developed the redesign of the company's web app: A post-harvest product manager, enhancing the UI, I implemented a new navbar integrating all the important sections of the app and rendering it responsive,Add new toast notification design to improving UX, added new catalogs, and optimized processes for traceability and product labeling implementing a new pdf library, improving label's printing times. Additionally, i lead the end-to-end testing process to ensure app quality.",
@@ -45,7 +46,8 @@
     {
       "name": "Centro de Servicios de Tecnología de la Información (CSTI)",
       "position": "Tech Support / Web Developer",
-      "url": "https://company.com",
+      "projectName": null,
+      "url": null,
       "startDate": "2022-05-15",
       "endDate": "2023-12-15",
       "summary": "Provided technical support for both hardware and software to users and classrooms in the Industrial Engineering Department at the Universidad de Sonora. I also I developed the frontend of an app to generate pdf for the Department's secretary, saving time to printing activities.",

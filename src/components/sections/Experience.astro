@@ -4,12 +4,12 @@ import {work} from '@/resume.json'
 ---
 <Section title="Experience">
     <ul>
-        {work.map(({name,startDate,endDate,position,summary,highlights}) => {
+        {work.map(({name,startDate,endDate,position,summary,projectUrl,projectName}) => {
 
             const startYear = new Date(startDate).getFullYear()
-            const endYear = endDate !== null ? new Date(endDate).getFullYear() : 'Actual'
+            const endYear = endDate !== null ? new Date(endDate).getFullYear() : 'present'
             const years = `${startYear} - ${endYear}` 
-
+            const project = projectUrl && projectName !== null ? '' : `${projectName} - ${projectUrl}`
             return (
             <li>
                 <article>
@@ -17,6 +17,12 @@ import {work} from '@/resume.json'
                         <div>
                             <h3>{name}</h3>
                             <h4>{position}</h4>
+                            {projectUrl && projectName ? (
+                                    <h4>
+                                    Projects: 
+                                    <a href={projectUrl}>{projectName}</a>
+                                    </h4>
+                                ) : null}
 
                         </div>
                         <time >{years}</time>
@@ -42,6 +48,13 @@ import {work} from '@/resume.json'
         justify-content: space-between;
         align-items: center;
         margin-bottom: 4px;
+    }
+
+    header a {
+        color: #221fbf;
+        font-size: 1rem;
+        font-weight: 500;
+        text-decoration: none;
     }
 
 ul{
